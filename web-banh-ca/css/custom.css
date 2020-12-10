@@ -25,3 +25,11 @@
     background: #d65106;
     color: #ffffff;
 }
+.messenger{
+    width: 52px;
+    height: auto;
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 10000;
+}

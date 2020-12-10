@@ -67,6 +67,19 @@
 			return false; 
 		}); 
 	});
+	$(document).ready(function(){ 
+		$(window).on('scroll', function () {
+			if ($(this).scrollTop() > 100) { 
+				$('#messenger').fadeIn(); 
+			} else { 
+				$('#messenger').fadeOut(); 
+			} 
+		}); 
+		$('#messenger').click(function(){ 
+			$("html, body").animate({ scrollTop: 0 }, 600); 
+			return false; 
+		}); 
+	});
 	
 	/* ..............................................
     Special Menu
