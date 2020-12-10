@@ -46,7 +46,13 @@
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a id="menu-btn" class="nav-link" href="#menu-section">Menu</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="menu.html" id="dropdown-a" data-toggle="dropdown">Menu</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="menu.html">All menu</a>
+								<a class="dropdown-item" href="menu-banhca.html">Banh Ca</a>
+							</div>
+						</li>
 						<li class="nav-item"><a id="about-btn" class="nav-link" href="#about-section">About</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
@@ -189,9 +195,9 @@
 									<div class="gallery-single fix">
 										<img src="images/img-04.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
-											<h4> Taiyaki - Japanese fish shaped cake</h4>
+											<a href="menu-banhca.html" style="text-decoration: none;"><h4> Taiyaki - Japanese fish shaped cake</h4></a>
 											<p>Sed id magna vitae eros sagittis.</p>
-											<h5> 5.000 vnđ</h5>
+											<h5> 15.000 vnđ - 20.000 vnđ</h5>
 										</div>
 									</div>
 								</div>	
@@ -466,8 +472,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			
+			</div>		
 		</div>
 	</div>
 	<!-- End Menu -->
